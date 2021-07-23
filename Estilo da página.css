@@ -1,0 +1,55 @@
+/***************************************************************CLASS***************************************************************/
+.imagem_dos_dados{
+    position: absolute;
+    margin-left: -435px;
+    margin-top: 10px;
+}
+/****************************************************************ID'S***************************************************************/
+#voltar_para_o_site_de_portfólios{
+    position: absolute;
+    width: 5%;
+    margin-top: -8.5%;
+}
+#container{
+    width: 500px;
+    height: 350px;
+    background-color: rgb(128, 128, 128, 0.5); /*Para ajustar a transparencia de uma cor de fundo, é sempre bom definir a cor com o número de localização da cor*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+#imagem_de_perfil{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+#campo_de_email{
+    font-size: 18pt;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+#campo_de_senha{
+    font-size: 18pt;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+#botão_de_logar{
+    width: 70%;
+    height: 40px;
+    font-size: 20pt;
+    background: url('Arquivos necessários/laranja-em-degrade.png');
+    color: #fff;
+    border: rgb(128, 128, 128, 0.5);;
+}
+/*********************************************************Demais formatações********************************************************/
+body{
+    background: url('Arquivos necessários/fundo.jpg');
+}
